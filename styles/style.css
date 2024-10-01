@@ -367,7 +367,45 @@ header {
 
 /* Contact -----------------------------------------------------------------------------------*/
 
-.
+.contacts-section {
+    padding-top: 90px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #E4E4E4;
+}
+
+.contacts-h2 {
+
+}
+
+.contacts-wrapper {
+
+}
+
+.location-wrapper {
+
+}
+
+.contacts-card {
+
+}
+
+.contacts-h3 {
+
+}
+
+.phone-span {
+
+}
+
+.mail-wrapper {
+
+}
+
+.mail-span {
+
+}
 
 
 /* Join us -----------------------------------------------------------------------------------*/
