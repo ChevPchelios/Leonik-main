@@ -377,11 +377,19 @@ header {
 }
 
 .contacts-h2 {
-
+    width: 140px;
+    height: 47px;
+    font-weight: 300px;
+    font-size: 36px;
+    color: #1c1c1c;
+    margin-bottom: 40px;
 }
 
 .contacts-wrapper {
-
+    width: 1170px;
+    height: 476px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .location-wrapper {
@@ -389,7 +397,11 @@ header {
 }
 
 .contacts-card {
-
+    width: 215px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .contacts-h3 {
