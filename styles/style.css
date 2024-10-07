@@ -97,7 +97,7 @@ header {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0;
     padding: 100px 180px;
 }
@@ -368,12 +368,13 @@ header {
 /* Contact -----------------------------------------------------------------------------------*/
 
 .contacts-section {
-    height: 480px;
+    height: 580px;
     display: flex;
     justify-content: center;
     border-top: 1px solid #E4E4E4;
     margin-top: 200px;
     padding-top: 100px;
+    border-bottom: 1px solid #E4E4E4;
 }
 
 .contacts-h2 {
@@ -390,10 +391,7 @@ header {
     height: 476px;
     display: flex;
     justify-content: space-between;
-}
-
-.location-wrapper {
-
+    align-items: flex-start;
 }
 
 .contacts-card {
@@ -402,25 +400,90 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 80px;
 }
 
 .contacts-h3 {
+    width: 70px;
+    height: 30px;
+    font-weight: 600px;
+    font-size: 17px;
+    color: #1c1c1c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.location-text {
+    width: 215px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    line-height: 25px;
 }
 
 .phone-span {
-
-}
-
-.mail-wrapper {
-
+    width: 125px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    line-height: 25px;
 }
 
 .mail-span {
-
+    width: 160px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    line-height: 25px;
 }
-
 
 /* Join us -----------------------------------------------------------------------------------*/
 
+
+
 /* Footer ------------------------------------------------------------------------------------*/
+
+.footer-section {
+    margin-top: 50px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+.footer-copyrights {
+    width: 250px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+    padding-left: 25px;
+}
+
+.footer-list {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-list-link {
+    font-size: 15px;
+    font-weight: 600px;
+    color: #787878;
+}
+
+.footers-logo-wrapper {
+    display: flex;
+    gap: 35px;
+}
